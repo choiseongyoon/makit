@@ -12,8 +12,8 @@ SMD 공정이란 기판 표면에 부품을 실장하는 방식으로 전자기�
 
 <개발 Flow>
 
-1. 이미지 Reszie
-2. 이미지 Scan을 통한 전처리화로 에지 추출
-3. 객체 영역 추출
-4. Inception_V3을 통한 트레이닝
-5. Test Driver로 부품 
+1. image_trim.py : 이미지 데이터를 Reszie
+2. image_scan.py : 이미지 데이터를 전처리화 해서 노이즈 제거 & 에지 추출
+3. object_extraction.py : 부품 별로 객체 영역 추출
+4. inception_v3.py : Inception_V3을 통한 트레이닝
+5. test_driver.py : 검사하고자 하는 부품 이지미 검사 와 결과 
